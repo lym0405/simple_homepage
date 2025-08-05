@@ -1,3 +1,103 @@
-<html>
-   <head></head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fintech SaaS Landing Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', Arial, sans-serif;
+            background: linear-gradient(135deg, #0f2027, #2c5364);
+            color: #fff;
+        }
+        header {
+            padding: 2rem 0;
+            text-align: center;
+            background: rgba(0,0,0,0.3);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+            color: #b2bec3;
+        }
+        .cta-btn {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 1rem 2.5rem;
+            font-size: 1.1rem;
+            background: #00b894;
+            color: #fff;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        .cta-btn:hover {
+            background: #0984e3;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 3rem 0;
+            gap: 2rem;
+        }
+        .feature-card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 16px;
+            padding: 2rem;
+            width: 300px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+        .feature-card h3 {
+            margin-top: 0;
+            font-size: 1.3rem;
+            color: #00b894;
+        }
+        .feature-card p {
+            color: #dfe6e9;
+            font-size: 1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            color: #636e72;
+            font-size: 0.9rem;
+            background: rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FintechFlow</h1>
+        <p>Revolutionize your financial operations with our all-in-one SaaS platform.</p>
+        <a href="#signup" class="cta-btn">Get Started Free</a>
+    </header>
+    <section class="features">
+        <div class="feature-card">
+            <h3>Real-Time Analytics</h3>
+            <p>Monitor your financial data with live dashboards and actionable insights.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Secure Payments</h3>
+            <p>Process transactions safely with enterprise-grade security and compliance.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Automated Reporting</h3>
+            <p>Generate detailed reports instantly and streamline your workflow.</p>
+        </div>
+    </section>
+    <footer>
+        &copy; 2024 FintechFlow. All rights reserved.
+    </footer>
+</body>
 </html>
